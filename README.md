@@ -1,15 +1,5 @@
-# Week 5 Lab – Network Planning & Windows System Commands
-
-This lab is part of my cybersecurity training, focusing on network design and Windows system analysis.
-
----
-
-## 🌐 Part B – IP Addressing Plan
-
-Designed a comprehensive IP addressing scheme with segmentation for Firewall, Router, DNS/DHCP, Proxy, Web Server, IoT, and client LAN.
-
-![IP Address Plan](./screenshots/partB-ipplan.png)  
-*IP plan layout and subnet division*
+![IP Address Plan](./Screenshot%202025-09-23%20132133.png)  
+*Subnetting and IP allocation scheme*
 
 ---
 
@@ -17,19 +7,28 @@ Designed a comprehensive IP addressing scheme with segmentation for Firewall, Ro
 
 Collected system details and network information via built-in Windows utilities:
 
-![WMIC System Info](./screenshots/partD-wmic.png)  
-*System info: OS version, uptime, hardware*
+![WMIC System Info](./Screenshot%202025-09-23%20133001.png)  
+*System info: OS version, uptime, hardware details*
 
-![Netstat Output](./screenshots/partD-netstat.png)  
-*Active network connections and listening ports*
+![ARP Table](./Screenshot%202025-09-23%20133230.png)  
+*ARP table output – mapping of IP addresses to MAC addresses*
+
+![Ping Test](./Screenshot%202025-09-23%20133525.png)  
+*Connectivity check using ping*
+
+![Tracert Output](./Screenshot%202025-09-23%20133945.png)  
+*Route analysis using tracert*
+
+![Final System Output](./Screenshot%202025-09-23%20134144.png)  
+*Collected evidence of system commands execution*
 
 ---
 
 ## 📂 Supporting Files
 
-The full lab document with additional parts (A, C, E) is included for reference:  
-[`week5-lab.docx`](./week5-lab.docx)
+The full lab document with additional instructions is included for reference:  
+[`week 5 lab.docx`](./week%205%20lab.docx)
 
 ---
 
-⭐ *This lab demonstrates key skills in network design and OS-level investigation relevant to a SOC Analyst role.* 
+⭐ *This lab demonstrates key skills in network design and OS-level investigation relevant to a SOC Analyst role.*
