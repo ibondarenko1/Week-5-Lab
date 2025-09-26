@@ -1,43 +1,35 @@
-# Week 5 Lab – Networking & Windows System Analysis  
+# Week 5 Lab – Network Planning & Windows System Commands
 
-This lab was part of my cybersecurity studies.  
-It demonstrates practical skills in **network design** and **Windows system commands** that are directly useful for SOC and cybersecurity work.  
-
----
-
-## 🌐 Part B – IP Addressing Plan  
-
-- Designed an IP addressing scheme for a small enterprise network (10.0.75.0/24).  
-- Included segments for **Firewall, Router, DNS/DHCP, Proxy, Web Server, IoT, and Clients**.  
-- Applied subnetting and assigned static IPs for critical devices.  
-
-📌 **Why it matters for cybersecurity:**  
-Understanding IP planning and segmentation is essential for:  
-- Creating **secure zones (DMZ, IoT, Server segment)**  
-- Limiting attack surfaces  
-- Monitoring traffic in SOC environments  
+This lab is part of my cybersecurity training, focusing on network design and Windows system analysis.
 
 ---
 
-## 🖥 Part D – Windows Commands  
+## 🌐 Part B – IP Addressing Plan
 
-Worked with **Windows system commands (WMIC, systeminfo, netstat, etc.)** in SierraLab:  
-- Gathered system info (OS version, hardware, uptime)  
-- Enumerated running processes and network connections  
-- Practiced commands for quick triage during incident analysis  
+Designed a comprehensive IP addressing scheme with segmentation for Firewall, Router, DNS/DHCP, Proxy, Web Server, IoT, and client LAN.
 
-📌 **Why it matters for cybersecurity:**  
-SOC analysts use such commands in real investigations to:  
-- Detect suspicious processes  
-- Collect evidence during incident response  
-- Verify system integrity  
+![IP Address Plan](./screenshots/partB-ipplan.png)  
+*IP plan layout and subnet division*
 
 ---
 
-## 📂 Supporting Material  
+## 🖥 Part D – Windows System Commands
 
-- Full report: [`week5-lab.docx`](./week5-lab.docx)  
+Collected system details and network information via built-in Windows utilities:
+
+![WMIC System Info](./screenshots/partD-wmic.png)  
+*System info: OS version, uptime, hardware*
+
+![Netstat Output](./screenshots/partD-netstat.png)  
+*Active network connections and listening ports*
 
 ---
 
-⭐ *This lab demonstrates my growing skills in networking and OS analysis — both crucial for a future SOC Analyst role.*  
+## 📂 Supporting Files
+
+The full lab document with additional parts (A, C, E) is included for reference:  
+[`week5-lab.docx`](./week5-lab.docx)
+
+---
+
+⭐ *This lab demonstrates key skills in network design and OS-level investigation relevant to a SOC Analyst role.* 
