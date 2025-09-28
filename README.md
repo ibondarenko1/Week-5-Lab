@@ -57,3 +57,5 @@ The lab successfully demonstrates:
 ---
 
 📌 *Author: Ievgen (Jack) Bondarenko*  
+# Notes  
+Today I added new references for SOC tools.
